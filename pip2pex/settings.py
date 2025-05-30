@@ -26,7 +26,9 @@ SECRET_KEY = 'django-insecure-86dg^9dswa26&y)zp1e40e$q-h&l$jbbvf7o%l)xsl@)=&+w)+
 DEBUG = True
 
 ALLOWED_HOSTS = ['pi2pi.onrender.com']
-
+CSRF_TRUSTED_ORIGINS = [
+    'https://pi2pi.onrender.com'
+]
 
 # Application definition
 
